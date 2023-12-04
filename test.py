@@ -4,7 +4,7 @@ class Karakter():
     self.hp = hp
 
   def __str__(self):
-    print(f"Karakteren {self.navn} har {self.hp} HP")
+    return f"Karakteren {self.navn} har {self.hp} HP"
 
-helt = new Karakter("Josefine", 100)
+helt = Karakter("Josefine", 100)
 print(helt)
