@@ -8,3 +8,6 @@ class Karakter():
 
 helt = Karakter("Josefine", 100)
 print(helt)
+
+fiende = Karakter("Troll", 50)
+print(fiende)
