@@ -1,4 +1,6 @@
 class Karakter():
+  '''Klasse som lar deg lage ein basic karakter'''
+  
   def __init__(self, navn, hp, mp=0):
     self.navn = navn
     self.hp = hp
